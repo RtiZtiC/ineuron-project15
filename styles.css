@@ -1,0 +1,410 @@
+body{
+    background-color: #111111;
+    color: white;
+    margin: 0%;
+    padding-top: 3%;
+}
+.logo{
+    color: #c91b28;
+    filter: hue-rotate(180deg); 
+}
+.options{
+    font-family: "Poppins";
+    color: white;
+}
+.item{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    padding-right: 25px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 10%;
+}
+.Section-1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.img1{
+    width:70%;
+    position: relative;
+    left:50px;
+}
+
+
+/* SECTION 1 */
+
+.sec1div{
+    font-family: "Poppins";
+    display: flex;
+    flex-direction: column;
+}
+
+.sec1div h3{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #c91b28;
+    position: relative;
+    top:120px;
+}
+
+.sec1div h1{
+    font-size: 3.5rem;
+    color:white;
+    font-weight: 600;
+    position: relative;
+    top:60px;
+}
+
+.sec1div p{
+    padding-right: 20%;
+}
+
+.smol-btn{
+    width: 130px;
+    height: 40px;
+    background-color: #c91b28;
+    color: white;
+    border-style: none;
+    font-weight: 500;
+}
+
+/* OPAQ */
+
+.opaq{
+    width:700px;
+    height: 1000px;
+    background-color: #181818;
+    position: absolute;
+    z-index: -1;
+}
+
+/* SECTION 3 */
+
+.Section-3{
+    display: flex;
+    justify-content: space-around;
+    font-family: "Poppins";
+    padding: 2% 10%;
+    padding-top: 6%;
+}
+
+.card{
+    width:330px;
+    height: 340px;
+    background-color: #1e1e1e;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card h3{
+    font-size: 1.5rem;
+}
+a{
+    color: #c91b28;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.active{
+    background-color: #c91b28;
+    color:white;
+}
+
+.card p{
+    text-align: center;
+    padding: 1% 10%;
+}
+.active a{
+    color: white;
+}
+
+/* infototal */
+
+.experience{
+   position: relative;
+   left:180px;
+}
+
+.experience h3{
+    position: relative;
+    bottom:50px;
+}
+
+.infototal{
+    font-family: "Poppins";
+    display: flex;
+    margin-top: 5%;
+    position: relative;
+    left:55px;
+    width: 90%;
+}
+
+.infosub{
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+}
+
+.infosub h2{
+    font-size: 2.5rem;
+    color: #c91b28;
+}
+
+.experience h2{
+    font-size: 5rem;
+    color: #c91b28;
+}
+
+.infosub p{
+    position: relative;
+    bottom:10px;
+}
+
+.infodiv{
+    margin-bottom: 5%;
+    margin-left: 13%;
+    width:300px;
+    height: 180px;
+    background-color: #1e1e1e;
+    text-align: center;
+}
+.infosub{
+    position: relative;
+    left:208px;
+}
+
+/* thumbnail section */
+
+.row-text{
+    font-family: "Poppins";
+    display: flex;
+    justify-content: space-around;
+    padding:10% 7%;
+    padding-bottom: 2%;
+}
+
+.row-text button{
+    width: 120px;
+    height: 35px;
+    background-color: #c91b28;
+    color: white;
+    border-style: none;
+}
+
+.allrow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    font-family: "Poppins";
+    position: relative;
+    right: 50px;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    gap:50px;
+    width: 1000px;
+    padding-bottom: 150px;;
+}
+.rowcover{
+    width: 360px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+}
+
+.rowcover h4{
+    color: #c91b28;
+    position: relative;
+    bottom:30px;
+}
+
+.imagesize{
+    width: 450px;
+    height: 280px;
+    padding: 2%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.imgcover{
+    background-color: #1e1e1e;
+    width:480px;
+    display: flex;
+    justify-content: center;
+}
+
+/* contact section */
+
+.contact{
+    width: 80%;
+    /* height: 200px; */
+    font-family: "Poppins";
+    display: flex;
+    justify-content: space-around;
+    margin: 10% 8%;
+    padding: 3%;
+    background-color: #1e1e1e;
+    align-items: center;
+}
+.cnt-btn{
+    width: 110px;
+    height: 35px;
+    background-color: #c91b28;
+    color: white;
+    border-style: none;
+}
+
+.con-text{
+    width:400px;
+}
+.con-text h2{
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: center;
+    gap:50px;
+    font-family: "Poppins";
+    padding-bottom: 20px;;
+}
+
+.footer-links a{
+    color: white;
+    font-weight: 400;
+
+}
+
+.bottom{
+    background-color: #1e1e1e;
+    display: flex;
+    gap:430px;
+    padding: 3% 8%;
+}
+
+.icons-media{
+    display: flex;
+    gap: 40px;
+}
+
+
+@media screen and (max-width:976px){
+    .opaq{
+        width: 90%;
+    }
+ .Section-1{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+ }   
+ .Section-3{
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 400px;
+ }
+ .card{
+    position: relative;
+    left:100px;
+ }
+ .infototal{
+    flex-direction: column;
+    align-items: center;
+    left: 0px;
+ }
+ .experience{
+    left: 0px;
+ }
+ .infosub{
+    left:0px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    width:90%
+ }
+ .infodiv{
+    margin-left: 0;
+    position: relative;
+    left:30px;
+ }
+ .allrow{
+    gap:0px;
+ }
+ .row{
+    flex-direction: column;
+    align-items: center;
+    width:70%;
+    /* gap:150px; */
+ }
+
+ .contact{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20%;
+    text-align: center;
+ }
+ .row-text{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 6%;
+ }
+ .rowcover{
+    
+    margin-bottom: 140px;
+ }
+ .sec1div p{
+    padding-left:20%;
+ }
+.sec1div{
+    align-items: center;
+    padding-bottom: 60px;
+}
+.bottom{
+
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+    padding-bottom: 10%;
+}
+.imagesize{
+    width: 380px;
+    height: 220px;
+}
+
+.imgcover{
+    background-color: #1e1e1e;
+    width:480px;
+    display: flex;
+    justify-content: center;
+}
+
+
+}
+
+@media screen and (max-width:768px) {
+    .options{
+        visibility: hidden;
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo{
+        padding-top: 30px;
+    }
+    .card{
+        position: relative;
+        left:0px;
+     }
+}
